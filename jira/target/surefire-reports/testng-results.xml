@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Logout Statuscode : 204]]>
+    </line>
+    <line>
+      <![CDATA[Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|dab316593f5baa15a7377a7d485540968c7ff0b4|lout; Path=/;JSESSIONID=93124301027EA4BA6F671D4A311D987D; Path=/; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|49bb8f8f291e8e657014dd581d133c47ac9827fb|lout; Path=/;JSESSIONID=5139B0FA8F855450DE3735577B271A4F; Path=/; HttpOnly]]>
+    </line>
+    <line>
+      <![CDATA[Session info body contents : {"self":"http://localhost:8080/rest/api/latest/user?username=mpatelmnl%40gmail.com","name":"mpatelmnl@gmail.com","loginInfo":{"failedLoginCount":94,"loginCount":413,"lastFailedLoginTime":"2015-10-06T11:50:23.840-0400","previousLoginTime":"2015-10-06T11:52:46.863-0400"}}]]>
+    </line>
+    <line>
+      <![CDATA[Valid Login data test Statuscode : 200]]>
+    </line>
+    <line>
+      <![CDATA[Valid Login data test Statuscode : 200]]>
+    </line>
+    <line>
+      <![CDATA[Valid Login data test Statuscode : 200]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login data test Statuscode : 401]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login data test Statuscode : 401]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login data test Statuscode : 401]]>
+    </line>
+  </reporter-output>
+  <suite name="JiraTestSuite1" duration-ms="2107" started-at="2015-10-06T15:52:45Z" finished-at="2015-10-06T15:52:47Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="2107" started-at="2015-10-06T15:52:45Z" finished-at="2015-10-06T15:52:47Z">
+      <class name="jira.qa.testcases.GetSessionIngo">
+        <test-method status="PASS" signature="sessionInfo()[pri:0, instance:jira.qa.testcases.GetSessionIngo@2f7c7260]" name="sessionInfo" duration-ms="81" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|49bb8f8f291e8e657014dd581d133c47ac9827fb|lout; Path=/;JSESSIONID=5139B0FA8F855450DE3735577B271A4F; Path=/; HttpOnly]]>
+            </line>
+            <line>
+              <![CDATA[Session info body contents : {"self":"http://localhost:8080/rest/api/latest/user?username=mpatelmnl%40gmail.com","name":"mpatelmnl@gmail.com","loginInfo":{"failedLoginCount":94,"loginCount":413,"lastFailedLoginTime":"2015-10-06T11:50:23.840-0400","previousLoginTime":"2015-10-06T11:52:46.863-0400"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sessionInfo -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.GetSessionIngo@2f7c7260]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.GetSessionIngo@2f7c7260]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jira.qa.testcases.GetSessionIngo -->
+      <class name="jira.qa.testcases.GetHeaderCookie">
+        <test-method status="PASS" signature="header()[pri:0, instance:jira.qa.testcases.GetHeaderCookie@1b0375b3]" name="header" duration-ms="43" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|dab316593f5baa15a7377a7d485540968c7ff0b4|lout; Path=/;JSESSIONID=93124301027EA4BA6F671D4A311D987D; Path=/; HttpOnly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- header -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.GetHeaderCookie@1b0375b3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.GetHeaderCookie@1b0375b3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jira.qa.testcases.GetHeaderCookie -->
+      <class name="jira.qa.testcases.PostJiraLogin">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:jira.qa.testcases.PostJiraLogin@6bdf28bb]" name="validLogin" duration-ms="41" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.PostJiraLogin@6bdf28bb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.PostJiraLogin@6bdf28bb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jira.qa.testcases.PostJiraLogin -->
+      <class name="jira.qa.testcases.DeleteJiraLogout">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.DeleteJiraLogout@5ba23b66]" name="beforeMethod" is-config="true" duration-ms="313" started-at="2015-10-06T11:52:45Z" finished-at="2015-10-06T11:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logoutJira()[pri:0, instance:jira.qa.testcases.DeleteJiraLogout@5ba23b66]" name="logoutJira" duration-ms="1429" started-at="2015-10-06T11:52:45Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Statuscode : 204]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutJira -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.DeleteJiraLogout@5ba23b66]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jira.qa.testcases.DeleteJiraLogout -->
+      <class name="jira.qa.testcases.JiraLoginData">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="valid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="valid_LoginTest" duration-ms="43" started-at="2015-10-06T11:52:46Z" data-provider="validlogindata" finished-at="2015-10-06T11:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpatelmnl@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid Login data test Statuscode : 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- valid_LoginTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:46Z" finished-at="2015-10-06T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="valid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="valid_LoginTest" duration-ms="37" started-at="2015-10-06T11:52:46Z" data-provider="validlogindata" finished-at="2015-10-06T11:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MPATELMNL@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid Login data test Statuscode : 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- valid_LoginTest -->
+        <test-method status="PASS" signature="valid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="valid_LoginTest" duration-ms="37" started-at="2015-10-06T11:52:47Z" data-provider="validlogindata" finished-at="2015-10-06T11:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpatelmnl@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid Login data test Statuscode : 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- valid_LoginTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="invalid_LoginTest" duration-ms="18" started-at="2015-10-06T11:52:47Z" data-provider="invalidlogindata" finished-at="2015-10-06T11:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpatel.mnl@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Login data test Statuscode : 401]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid_LoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="invalid_LoginTest" duration-ms="33" started-at="2015-10-06T11:52:47Z" data-provider="invalidlogindata" finished-at="2015-10-06T11:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpatelmnl@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Login data test Statuscode : 401]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid_LoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalid_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="invalid_LoginTest" duration-ms="11" started-at="2015-10-06T11:52:47Z" data-provider="invalidlogindata" finished-at="2015-10-06T11:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpatelmnl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Login data test Statuscode : 401]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid_LoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jira.qa.testcases.JiraLoginData@2d209079]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T11:52:47Z" finished-at="2015-10-06T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- jira.qa.testcases.JiraLoginData -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- JiraTestSuite1 -->
+</testng-results>

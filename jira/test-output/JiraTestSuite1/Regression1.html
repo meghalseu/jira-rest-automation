@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>TestNG:  Regression1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 06 11:50:21 EDT 2015</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2174 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='jira.qa.testcases.GetHeaderCookie.header()'><b>header</b><br>Test class: jira.qa.testcases.GetHeaderCookie<br/>
+<a href="#Output-557197074" onClick='toggleBox("Output-557197074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557197074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557197074">
+Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|a92e27e4d0c0b413f8a3a9a0286ed0e49bfa2533|lout; Path=/;JSESSIONID=E5D28D5D791D08E2BCC916CF477D9382; Path=/; HttpOnly<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.GetHeaderCookie@5a01ccaa</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.invalid_LoginTest()'><b>invalid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: mpatel.mnl@gmail.com, P@ssw0rd<br/>
+<a href="#Output-1082865087" onClick='toggleBox("Output-1082865087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082865087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082865087">
+Invalid Login data test Statuscode : 401<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.invalid_LoginTest()'><b>invalid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: mpatelmnl@gmail.com, invalidpass<br/>
+<a href="#Output-1540476618" onClick='toggleBox("Output-1540476618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540476618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540476618">
+Invalid Login data test Statuscode : 401<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.invalid_LoginTest()'><b>invalid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: mpatelmnl, P@ssw0rd<br/>
+<a href="#Output-677317086" onClick='toggleBox("Output-677317086", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-677317086" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-677317086">
+Invalid Login data test Statuscode : 401<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+<tr>
+<td title='jira.qa.testcases.DeleteJiraLogout.logoutJira()'><b>logoutJira</b><br>Test class: jira.qa.testcases.DeleteJiraLogout<br/>
+<a href="#Output-1264754451" onClick='toggleBox("Output-1264754451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1264754451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1264754451">
+Logout Statuscode : 204<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>jira.qa.testcases.DeleteJiraLogout@35851384</td></tr>
+<tr>
+<td title='jira.qa.testcases.GetSessionIngo.sessionInfo()'><b>sessionInfo</b><br>Test class: jira.qa.testcases.GetSessionIngo<br/>
+<a href="#Output-1409342262" onClick='toggleBox("Output-1409342262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1409342262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1409342262">
+Header cookie : atlassian.xsrf.token=BO38-OHJQ-C2GC-K1H6|02261a0a1ca451ea2ea31ceb72b83b8b0686296d|lout; Path=/;JSESSIONID=AB67AF4AD5DCCC128686F30DB45CBCED; Path=/; HttpOnly<br/>
+Session info body contents : {"self":"http://localhost:8080/rest/api/latest/user?username=mpatelmnl%40gmail.com","name":"mpatelmnl@gmail.com","loginInfo":{"failedLoginCount":93,"loginCount":406,"lastFailedLoginTime":"2015-10-06T11:31:23.624-0400","previousLoginTime":"2015-10-06T11:50:23.550-0400"}}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.GetSessionIngo@71c7db30</td></tr>
+<tr>
+<td title='jira.qa.testcases.PostJiraLogin.validLogin()'><b>validLogin</b><br>Test class: jira.qa.testcases.PostJiraLogin</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.PostJiraLogin@4563e9ab</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.valid_LoginTest()'><b>valid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: mpatelmnl@gmail.com, P@ssw0rd<br/>
+<a href="#Output-1094272405" onClick='toggleBox("Output-1094272405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1094272405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1094272405">
+Valid Login data test Statuscode : 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.valid_LoginTest()'><b>valid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: MPATELMNL@gmail.com, P@ssw0rd<br/>
+<a href="#Output-846274760" onClick='toggleBox("Output-846274760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-846274760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-846274760">
+Valid Login data test Statuscode : 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+<tr>
+<td title='jira.qa.testcases.JiraLoginData.valid_LoginTest()'><b>valid_LoginTest</b><br>Test class: jira.qa.testcases.JiraLoginData<br>Parameters: mpatelmnl@gmail.com, P@ssw0rd<br/>
+<a href="#Output-2081964843" onClick='toggleBox("Output-2081964843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2081964843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2081964843">
+Valid Login data test Statuscode : 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>jira.qa.testcases.JiraLoginData@19bb089b</td></tr>
+</table><p>
+</body>
+</html>

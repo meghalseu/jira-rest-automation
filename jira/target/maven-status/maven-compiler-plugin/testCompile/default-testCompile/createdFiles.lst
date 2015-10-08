@@ -1,0 +1,7 @@
+jira\qa\testcases\TestCaseBase.class
+jira\qa\testcases\GetHeaderCookie.class
+jira\qa\testcases\JiraLoginData.class
+jira\qa\testcases\PostJiraLogin.class
+jira\qa\data\Data.class
+jira\qa\testcases\DeleteJiraLogout.class
+jira\qa\testcases\GetSessionIngo.class

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="JiraTestSuite1" verbose="1" >
+
+  <test name="Regression1">
+  <packages>
+      <package name="jira.qa.testcases" />
+   </packages>
+  
+   
+  </test>
+</suite>

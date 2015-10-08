@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JiraTestSuite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="jira.qa.testcases.JiraLoginData">
+        <methods>
+          <include name="validLoginTest" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- jira.qa.testcases.JiraLoginData -->
+      <class name="jira.qa.testcases.GetHeaderCookie">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- jira.qa.testcases.GetHeaderCookie -->
+      <class name="jira.qa.testcases.DeleteJiraLogout">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- jira.qa.testcases.DeleteJiraLogout -->
+      <class name="jira.qa.testcases.GetSessionIngo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- jira.qa.testcases.GetSessionIngo -->
+      <class name="jira.qa.testcases.PostJiraLogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- jira.qa.testcases.PostJiraLogin -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [JiraTestSuite1] -->
